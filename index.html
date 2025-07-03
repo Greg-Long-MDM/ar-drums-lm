@@ -33,4 +33,41 @@
       border: none;
       border-radius: 8px;
       cursor: pointer;
-      transition: background 0.3s, colo
+      transition: background 0.3s, color 0.3s;
+    }
+    .button:hover {
+      background: #f0f0f0;
+      color: #111;
+    }
+    .footer-logo {
+      margin-top: 3em;
+      opacity: 0.9;
+    }
+    .footer-logo img {
+      width: 140px;
+      height: auto;
+    }
+    em {
+      color: #d1d1d1;
+    }
+  </style>
+</head>
+<body>
+  <h1>View Drum Kit in Augmented Reality (AR)</h1>
+  <p>Tap the image below to view this drum kit in your room using AR:</p>
+
+  <a rel="ar" href="bateria_drum_set (1).usdz">
+    <img src="drumkit.jpg" alt="Drum Kit Preview">
+  </a>
+
+  <button class="button" onclick="document.getElementById('drumAudio').play()">🥁 Play Drum Loop</button>
+
+  <p><em>Best viewed on iPhone or iPad using Safari</em></p>
+
+  <audio id="drumAudio" src="amen-break-no-copyright-remake-120bpm-25924.mp3"></audio>
+
+  <div class="footer-logo">
+    <img src="LM logo.jpg" alt="Long & McQuade Logo">
+  </div>
+</body>
+</html>
