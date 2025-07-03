@@ -13,28 +13,41 @@
       font-family: 'Poppins', sans-serif;
       text-align: center;
       padding: 2em;
-      background: #f7f7f7;
+      background-color: #194377;
+      color: white;
     }
     img {
       max-width: 90%;
       height: auto;
       border-radius: 12px;
-      box-shadow: 0 0 20px rgba(0,0,0,0.1);
+      box-shadow: 0 0 20px rgba(0,0,0,0.2);
     }
     .button {
       margin-top: 1.5em;
       padding: 12px 24px;
       font-size: 18px;
       font-family: 'Poppins', sans-serif;
-      background: #222;
-      color: white;
+      background: #ffffff;
+      color: #194377;
       border: none;
       border-radius: 8px;
       cursor: pointer;
-      transition: background 0.3s;
+      transition: background 0.3s, color 0.3s;
     }
     .button:hover {
-      background: #444;
+      background: #f0f0f0;
+      color: #111;
+    }
+    .footer-logo {
+      margin-top: 3em;
+      opacity: 0.9;
+    }
+    .footer-logo img {
+      width: 140px;
+      height: auto;
+    }
+    em {
+      color: #d1d1d1;
     }
   </style>
 </head>
@@ -51,5 +64,9 @@
   <p><em>Best viewed on iPhone or iPad using Safari</em></p>
 
   <audio id="drumAudio" src="amen-break-no-copyright-remake-120bpm-25924.mp3"></audio>
+
+  <div class="footer-logo">
+    <img src="LM logo.jpg" alt="Long & McQuade Logo">
+  </div>
 </body>
 </html>
